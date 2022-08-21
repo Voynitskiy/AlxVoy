@@ -12,7 +12,7 @@
  💗 Cosmos one Love!
 
 <h1 align="center">Mainnet</h1>
-[<img src='https://voynitskiy.com/img/mainnet/BeeZee.png' alt='BeeZee'  width='200'>]
+[<img src='https://voynitskiy.com/img/mainnet/BeeZee.png' alt='BeeZee'  width='200'>] (https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
 [<img src='https://voynitskiy.com/img/mainnet/BitCanna.png' alt='BitCanna'  width='200'>]
 <img src='https://voynitskiy.com/img/mainnet/BitSong.png' alt='BitSong'  width='200'><img src='https://voynitskiy.com/img/mainnet/Canto.png' alt='Canto'  width='200'><img src='https://voynitskiy.com/img/mainnet/Cerberus.png' alt='Cerberus'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/CHEQD Network.png' alt='CHEQD Network'  width='200'>
