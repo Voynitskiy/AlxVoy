@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Alex</h1>
 <h3 align="center">Individual Proof-of-Stake Validator</h3>
-💗 Cosmos one Love
-
+💗 Cosmos one Love<br>
 
 💡 I know a little: HTML, PHP, MySQL, Python, Photoshop, Linux, Grafana
 
