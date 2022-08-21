@@ -38,7 +38,6 @@
 <img src='https://voynitskiy.com/img/mainnet/Rizon.png' alt='Rizon'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Vidulum.png' alt='Vidulum'  width='200'>
 
-[<img src='https://user-images.githubusercontent.com/83868103/183111052-2bc3a8cf-f5b7-4915-8a09-212f09859e34.gif' alt='mainnets'  width='99.5%'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
 [<img src='https://user-images.githubusercontent.com/83868103/182951895-1f093735-ce28-4ae6-9aba-cec3de667843.png' alt='umee'  width='24.5%'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
 [<img src='https://user-images.githubusercontent.com/83868103/182946009-439e0aa3-b401-457a-b2ed-355f9f5ccb3a.png' alt='nym'  width='24.5%'>](https://mixnet.explorers.guru/mixnode/8fVEYyzsr6xWbgWv19CqiiAWr3ocskn3DU65MNSbQH2q)
 [<img src='https://user-images.githubusercontent.com/83868103/182948413-cc5f023a-075b-4e0e-a0b7-6844531de93d.png' alt='mises'  width='24.5%'>](https://gw.mises.site/validators/misesvaloper1js09j57nge6yqphe9wvr8kp70le3wqg28qu0ga)
