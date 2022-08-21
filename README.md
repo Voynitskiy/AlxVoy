@@ -10,3 +10,5 @@
  🌐 **https://voynitskiy.com**
 
  💗 Cosmos one Love!
+
+<h1 align="center">Mainnet</h1>
