@@ -12,12 +12,13 @@
  💗 Cosmos one Love!
 
 <h1 align="center">Mainnet</h1>
+
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='umee'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='150'>]()
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/CHEQD%20Network.png' alt='CHEQD Network'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Canto.png' alt='Canto'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Cerberus.png' alt='Cerberus'  width='150'>]()
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/CHEQD%20Network.png' alt='CHEQD Network'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/DIG.png' alt='DIG'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/FirmaChain.png' alt='FirmaChain'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/GenesisL1.png' alt='GenesisL1'  width='150'>]()
