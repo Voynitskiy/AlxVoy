@@ -12,4 +12,4 @@
  💗 Cosmos one Love!
 
 <h1 align="center">Mainnet</h1>
-[<img src='https://voynitskiy.com/img/mainnet/BeeZee.png' alt='BeeZee'  width='70%'>]
+<img src='https://voynitskiy.com/img/mainnet/BeeZee.png' alt='BeeZee'>
