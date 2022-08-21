@@ -34,9 +34,9 @@
 <img src='https://voynitskiy.com/img/mainnet/NYM.png' alt='NYM'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Shentu.png' alt='Shentu'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Persistence.png' alt='Persistence'  width='200'>
-<img src='https://voynitskiy.com/img/mainnet/Provenance.png' alt='Provenance'  width='200'>
-<img src='https://voynitskiy.com/img/mainnet/Rizon.png' alt='Rizon'  width='200'>
-<img src='https://voynitskiy.com/img/mainnet/Vidulum.png' alt='Vidulum'  width='200'>
+[<img src='https://voynitskiy.com/img/mainnet/Provenance.png' alt='Provenance'  width='200'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
+[<img src='https://voynitskiy.com/img/mainnet/Rizon.png' alt='Rizon'  width='200'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
+[<img src='https://voynitskiy.com/img/mainnet/Vidulum.png' alt='Vidulum'  width='200'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
 
 [<img src='https://user-images.githubusercontent.com/83868103/182951895-1f093735-ce28-4ae6-9aba-cec3de667843.png' alt='umee'  width='24.5%'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
 [<img src='https://user-images.githubusercontent.com/83868103/182946009-439e0aa3-b401-457a-b2ed-355f9f5ccb3a.png' alt='nym'  width='24.5%'>](https://mixnet.explorers.guru/mixnode/8fVEYyzsr6xWbgWv19CqiiAWr3ocskn3DU65MNSbQH2q)
