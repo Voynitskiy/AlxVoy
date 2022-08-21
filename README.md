@@ -24,7 +24,7 @@
 <img src='https://voynitskiy.com/img/mainnet/Galaxy.png' alt='Galaxy'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/GenesisL1.png' alt='GenesisL1'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Gravity Bridge.png' alt='Gravity Bridge'  width='200'>
-<img src='https://voynitskiy.com/img/mainnet/KiChain.png' alt='Ki Chain'  width='200'>
+<img src='https://voynitskiy.com/img/mainnet/Ki-Chain.png' alt='Ki Chain'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Konstellation.png' alt='Konstellation'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/LikeCoin.png' alt='LikeCoin'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Lum.png' alt='Lum Network'  width='200'>
