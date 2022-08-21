@@ -12,9 +12,9 @@
  💗 Cosmos one Love!
 
 <h1 align="center">Mainnet</h1>
-<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='BeeZee'  width='200'>
-<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='BitCanna'  width='200'>
-<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='BitSong'  width='200'>
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='BeeZee'  width='200'>]
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='BitCanna'  width='200'>]
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='BitSong'  width='200'>]
 <img src='https://voynitskiy.com/img/mainnet/Canto.png' alt='Canto'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/Cerberus.png' alt='Cerberus'  width='200'>
 <img src='https://voynitskiy.com/img/mainnet/CHEQD Network.png' alt='CHEQD Network'  width='200'>
