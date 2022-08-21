@@ -12,4 +12,4 @@
  💗 Cosmos one Love!
 
 <h1 align="center">Mainnet</h1>
-[<img src='[https://user-images.githubusercontent.com/83868103/183111052-2bc3a8cf-f5b7-4915-8a09-212f09859e34.gif](https://voynitskiy.com/img/mainnet/BeeZee.png)' alt='BeeZee'  width='70%'>]
+[<img src='https://voynitskiy.com/img/mainnet/BeeZee.png' alt='BeeZee'  width='70%'>]
