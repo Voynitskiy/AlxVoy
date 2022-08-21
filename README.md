@@ -20,7 +20,6 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Cerberus.png' alt='Cerberus'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/CHEQD%20Network.png' alt='CHEQD Network'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Chronic.png' alt='Chronic'  width='150'>]()
-
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/DIG.png' alt='DIG'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/FirmaChain.png' alt='FirmaChain'  width='150'>]()
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Galaxy.png' alt='Galaxy'  width='150'>]()
