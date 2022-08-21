@@ -42,6 +42,6 @@
 [<img src='https://user-images.githubusercontent.com/83868103/182946009-439e0aa3-b401-457a-b2ed-355f9f5ccb3a.png' alt='nym'  width='24.5%'>](https://mixnet.explorers.guru/mixnode/8fVEYyzsr6xWbgWv19CqiiAWr3ocskn3DU65MNSbQH2q)
 [<img src='https://user-images.githubusercontent.com/83868103/182948413-cc5f023a-075b-4e0e-a0b7-6844531de93d.png' alt='mises'  width='24.5%'>](https://gw.mises.site/validators/misesvaloper1js09j57nge6yqphe9wvr8kp70le3wqg28qu0ga)
 
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='umee'  width='200'>](https://umee.explorers.guru/validator/umeevaloper1wj6p0rgdpy8kkj3xa7e8t0g9tn9nyw4hltw2z2)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='200'>](https://mixnet.explorers.guru/mixnode/8fVEYyzsr6xWbgWv19CqiiAWr3ocskn3DU65MNSbQH2q)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='200'>](https://gw.mises.site/validators/misesvaloper1js09j57nge6yqphe9wvr8kp70le3wqg28qu0ga)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='umee'  width='200'>]()
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='200'>]()
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='200'>]()
