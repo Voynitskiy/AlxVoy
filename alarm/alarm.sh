@@ -3,10 +3,10 @@
 # File name for saving parameters, e.g. "cosmos.log"
 LOG_FILE="$HOME/alarm/nodealerts.log"
 # Your node RPC address, e.g. "http://127.0.0.1:26657"
-NODE_RPC="http://127.0.0.1:26657"
+NODE_RPC="http://127.0.0.1:$PORT_ID"
 source 
 # Trusted node RPC address, e.g. "https://rpc.cosmos.network:26657"
-SIDE_RPC="https://snapshot-1.euphoria.aura.network:443"
+SIDE_RPC="https://haqq-t.rpc.manticore.team:443"
 ip=$(wget -qO- eth0.me)
 
 touch $LOG_FILE
