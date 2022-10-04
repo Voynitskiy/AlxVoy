@@ -27,10 +27,15 @@ echo "                  Setup your Chat ID                  "
 echo "└────────────────────────────────────────────────────┘"
 read TG_ID
 echo export TG_ID=${TG_ID} >> $HOME/.bash_profile
+echo "┌────────────────────────────────────────────────────┐"
+echo "                 Setup your PRC port                  "
+echo "└────────────────────────────────────────────────────┘"
+read PORT_ID
+echo export PORT_ID=${PORT_ID} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 mkdir $HOME/alerts
-wget -O $HOME/alarm/alarm.sh https://raw.githubusercontent.com/StakeTake/guidecosmos/main/aura/euphoria-1/telegram_bot/alerts.sh
+wget -O $HOME/alarm/alarm.sh https://raw.githubusercontent.com/Voynitskiy/AlxVoy/main/alarm/alarm.sh
 chmod +x $HOME/alarm/alarm.sh
 break
 ;;
