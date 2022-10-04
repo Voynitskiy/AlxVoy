@@ -34,7 +34,7 @@ read PORT_ID
 echo export PORT_ID=${PORT_ID} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
-mkdir $HOME/alerts
+mkdir $HOME/alarm
 wget -O $HOME/alarm/alarm.sh https://raw.githubusercontent.com/Voynitskiy/AlxVoy/main/alarm/alarm.sh
 chmod +x $HOME/alarm/alarm.sh
 break
