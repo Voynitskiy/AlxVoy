@@ -3,9 +3,7 @@
 while true
 do
 
-echo "============================================================"
 curl -s https://raw.githubusercontent.com/Voynitskiy/AlxVoy/main/logo.sh | bash
-echo "============================================================"
 
 PS3='Select an action: '
 options=(
