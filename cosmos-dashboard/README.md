@@ -90,3 +90,145 @@ EOF
 systemctl daemon-reload && systemctl enable cosmos-exporterd
 systemctl restart cosmos-exporterd && journalctl -u cosmos-exporterd -f -o cat
 ```
+# Grafana & Prometheus
+Install it on a separate server
+## Install Prometheus
+```
+mkdir /etc/prometheus
+mkdir /var/lib/prometheus
+```
+```
+cd && \
+wget https://github.com/prometheus/prometheus/releases/download/v2.38.0/prometheus-2.38.0.linux-amd64.tar.gz && \
+tar xvf prometheus-2.38.0.linux-amd64.tar.gz
+```
+```
+cp prometheus-2.38.0.linux-amd64/prometheus /usr/local/bin/
+cp prometheus-2.38.0.linux-amd64/promtool /usr/local/bin/
+cp -r prometheus-2.38.0.linux-amd64/consoles /etc/prometheus
+cp -r prometheus-2.38.0.linux-amd64/console_libraries /etc/prometheus
+cp prometheus-2.38.0.linux-amd64/prometheus.yml /etc/prometheus/
+rm -rf prometheus-2.38.0.linux-amd64.tar.gz prometheus-2.38.0.linux-amd64
+```
+Check
+```
+prometheus --version
+promtool --version
+```
+## Configuring Prometheus
+```
+curl -sSL https://raw.githubusercontent.com/lesnikutsa/cosmos-monitoring/main/prometheus.yml > /etc/prometheus/prometheus.yml
+```
+```
+mkdir -p $HOME/prometheus && cd prometheus
+wget -q -O add_node.sh https://raw.githubusercontent.com/lesnikutsa/cosmos-monitoring/main/add_node.sh && chmod +x add_node.sh
+```
+Adding a value to variables
+```
+VALIDATOR_IP=<YOUR_VALIDATOR_IP>
+VALOPER_ADDRESS=<YOUR_VALOPER_ADDRESS>
+WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
+$HOME/prometheus/add_node.sh $VALIDATOR_IP $VALOPER_ADDRESS $WALLET_ADDRESS Nolus
+```
+Check
+```
+nano /etc/prometheus/prometheus.yml
+```
+#### Example
+```
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+rule_files: null
+scrape_configs:
+  - job_name: prometheus
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - localhost:9090
+  - job_name: cosmos
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - 135.181.46.247:26660
+        labels: {}
+      - targets:
+          - 135.181.46.247:26660
+        labels: {}
+  - job_name: node
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - 135.181.46.247:9100
+        labels:
+          instance: nolus
+      - targets:
+          - 135.181.46.247:9100
+        labels:
+          instance: nolus
+  - job_name: validators
+    metrics_path: /metrics/validators
+    static_configs:
+      - targets:
+          - 135.181.46.247:9300
+        labels: {}
+      - targets:
+          - 135.181.46.247:9300
+        labels: {}
+  - job_name: validator
+    metrics_path: /metrics/validator
+    relabel_configs:
+      - source_labels:
+          - address
+        target_label: __param_address
+    static_configs:
+      - targets:
+          - 135.181.46.247:9300
+        labels:
+          address: nolusvaloper1rp9sy3rzdavu2f5764r2304ftetm3ytc5fyswa
+      - targets:
+          - 135.181.46.247:9300
+        labels:
+          address: nolusvaloper1rp9sy3rzdavu2f5764r2304ftetm3ytc5fyswa
+  - job_name: wallet
+    metrics_path: /metrics/wallet
+    relabel_configs:
+      - source_labels:
+          - address
+        target_label: __param_address
+    static_configs:
+      - targets:
+          - 135.181.46.247:9300
+        labels:
+          address: nolus1rp9sy3rzdavu2f5764r2304ftetm3ytcde34dq
+      - targets:
+          - 135.181.46.247:9300
+        labels:
+          address: nolus1rp9sy3rzdavu2f5764r2304ftetm3ytcde34dq
+```
+Creating a service file
+```
+tee /etc/systemd/system/prometheusd.service > /dev/null <<EOF
+[Unit]
+Description=Prometheus
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=prometheus
+Group=prometheus
+Type=simple
+ExecStart=/usr/local/bin/prometheus \
+    --config.file /etc/prometheus/prometheus.yml \
+    --storage.tsdb.path /var/lib/prometheus/ \
+    --web.console.templates=/etc/prometheus/consoles \
+    --web.console.libraries=/etc/prometheus/console_libraries
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+```
+systemctl daemon-reload && systemctl enable prometheusd
+systemctl restart prometheusd && sudo systemctl status prometheusd
+```
