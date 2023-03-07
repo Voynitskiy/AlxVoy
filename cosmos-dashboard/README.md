@@ -91,7 +91,7 @@ systemctl daemon-reload && systemctl enable cosmos-exporterd
 systemctl restart cosmos-exporterd && journalctl -u cosmos-exporterd -f -o cat
 ```
 # Grafana & Prometheus
-Install it on a separate server
+#### Install it on a separate server
 ## Install Prometheus
 ```
 mkdir /etc/prometheus
@@ -232,3 +232,27 @@ EOF
 systemctl daemon-reload && systemctl enable prometheusd
 systemctl restart prometheusd && sudo systemctl status prometheusd
 ```
+Check
+```
+curl 'localhost:9090/metrics'
+```
+Check Targets
+```
+echo "http://$(wget -qO- eth0.me):9090"
+```
+## Install Grafana
+```
+sudo apt-get install -y adduser libfontconfig1 && \
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.1.3_amd64.deb && \
+sudo dpkg -i grafana-enterprise_9.1.3_amd64.deb
+```
+```
+systemctl daemon-reload && systemctl enable grafana-server
+systemctl restart grafana-server && journalctl -u grafana-server -f
+```
+### Configuring Grafana on the site
+```
+echo "http://$(wget -qO- eth0.me):3000"
+```
+* `Login` admin
+* `Password` admin
