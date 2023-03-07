@@ -257,4 +257,6 @@ echo "http://$(wget -qO- eth0.me):3000"
 * `Login` admin
 * `Password` admin
 
-![BitCanna Guide](https://github.com/Voynitskiy/AlxVoy/edit/main/cosmos-dashboard/Grafana-1.png)
+![Enter](https://github.com/Voynitskiy/AlxVoy/edit/main/cosmos-dashboard/Grafana-1.png)
+### Go to Data sources
+![Data sources](https://github.com/Voynitskiy/AlxVoy/edit/main/cosmos-dashboard/Grafana-2.png)
