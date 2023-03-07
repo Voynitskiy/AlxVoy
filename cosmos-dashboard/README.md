@@ -72,7 +72,11 @@ Group=cosmos_exporter
 TimeoutStartSec=0
 CPUWeight=95
 IOWeight=95
-ExecStart=/usr/local/bin/cosmos-exporter --denom unls --denom-coefficient 1000000 --bech-prefix nolus --node localhost:9090 --tendermint-rpc http://localhost:26657
+ExecStart=/usr/local/bin/cosmos-exporter --denom unls \
+  --denom-coefficient 1000000 \
+  --bech-prefix nolus \
+  --node localhost:9090 \
+  --tendermint-rpc http://localhost:26657
 Restart=always
 RestartSec=2
 LimitNOFILE=800000
