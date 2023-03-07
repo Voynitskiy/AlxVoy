@@ -271,3 +271,6 @@ echo "http://$(wget -qO- eth0.me):3000"
 ![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-7.png)
 ![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-8.png)
 ![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-9.png)
+# Dashboard
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-10.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-11.png)
