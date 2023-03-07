@@ -254,9 +254,20 @@ systemctl restart grafana-server && journalctl -u grafana-server -f
 ```
 echo "http://$(wget -qO- eth0.me):3000"
 ```
+### Enter
 * `Login` admin
 * `Password` admin
 
 ![Enter](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-1.png)
 ### Go to Data sources
 ![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-2.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-3.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-4.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-5.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-6.png)
+### Download Dashboard
+[https://grafana.com/grafana/dashboards/17100-cosmos-node-monitoring-from-neobase/](https://grafana.com/grafana/dashboards/17100-cosmos-node-monitoring-from-neobase/)
+### Uploading Dashboard
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-7.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-8.png)
+![Data sources](https://github.com/Voynitskiy/AlxVoy/raw/main/cosmos-dashboard/Grafana-9.png)
