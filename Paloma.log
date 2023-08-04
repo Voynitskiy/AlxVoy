@@ -1,0 +1,143 @@
+time="2023-08-04T07:57:21Z" level=info msg="checking if validator is staking"
+time="2023-08-04T07:57:21Z" level=info msg="validator is staking"
+time="2023-08-04T07:57:22Z" level=info msg="attester loop"
+time="2023-08-04T07:57:22Z" level=info msg="relayer loop"
+time="2023-08-04T07:57:22Z" level=info msg="signer loop"
+time="2023-08-04T07:57:26Z" level=info msg="checking if validator is staking"
+^C
+root@AlxVoy-2:~# journalctl -fu pigeond -o cat
+time="2023-08-04T07:58:42Z" level=info msg="updating external chain infos"
+time="2023-08-04T07:58:42Z" level=info msg="sending account info to paloma" acc-address=0xd2ffE9D34992118D5DF49D00195aA693F3FC39c1 chain-reference-id=bnb-main chain-type=evm
+time="2023-08-04T07:58:42Z" level=info msg="sending account info to paloma" acc-address=0x443520951d766456F2AC5578f3E7e4B56a7BcF63 chain-reference-id=eth-main chain-type=evm
+time="2023-08-04T07:58:42Z" level=info msg="sending account info to paloma" acc-address=0x2784C3E49C2b8350783C8F9F4C27658E0D5948F6 chain-reference-id=kava-main
+chain-type=evm
+time="2023-08-04T07:58:42Z" level=info msg="sending account info to paloma" acc-address=0xBCe338f9e943F5d830834eA2c5C15FCaF2BA2c3d chain-reference-id=matic-main chain-type=evm
+time="2023-08-04T07:58:42Z" level=info msg="sending account info to paloma" acc-address=0x2784C3E49C2b8350783C8F9F4C27658E0D5948F6 chain-reference-id=op-main chain-type=evm
+time="2023-08-04T07:58:42Z" level=debug msg="chain infos unchanged since last tick"
+time="2023-08-04T07:58:42Z" level=debug msg="chain infos unchanged since last tick"
+time="2023-08-04T07:58:42Z" level=info msg="signer loop"
+time="2023-08-04T07:58:42Z" level=debug msg="Sending Msg: creator:\"paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy\" chainInfos:<chainType:\"evm\" chainReferenceID:\"bnb-main\" address:\"0xd2ffE9D34992118D5DF49D00195aA693F3FC39c1\" pubkey:\"\\322\\377\\351\\323I\\222\\021\\215]\\364\\235\\000\\031Z\\246\\223\\363\\3749\\301\" > chainInfos:<chainType:\"evm\" chainReferenceID:\"eth-main\" address:\"0x443520951d766456F2AC5578f3E7e4B56a7BcF63\" pubkey:\"D5 \\225\\035vdV\\362\\254Ux\\363\\347\\344\\265j{\\317c\" > chainInfos:<chainType:\"evm\" chainReferenceID:\"kava-main\" address:\"0x2784C3E49C2b8350783C8F9F4C27658E0D5948F6\" pubkey:\"'\\204\\303\\344\\234+\\203Px<\\217\\237L'e\\216\\rYH\\366\" > chainInfos:<chainType:\"evm\" chainReferenceID:\"matic-main\" address:\"0xBCe338f9e943F5d830834eA2c5C15FCaF2BA2c3d\" pubkey:\"\\274\\3438\\371\\351C\\365\\3300\\203N\\242\\305\\301_\\312\\362\\272,=\" > chainInfos:<chainType:\"evm\" chainReferenceID:\"op-main\" address:\"0x2784C3E49C2b8350783C8F9F4C27658E0D5948F6\" pubkey:\"'\\204\\303\\344\\234+\\203Px<\\217\\237L'e\\216\\rYH\\366\" > "
+time="2023-08-04T07:58:46Z" level=info msg="checking if validator is staking"
+time="2023-08-04T07:58:46Z" level=debug msg="querying get alive time"
+time="2023-08-04T07:58:46Z" level=info msg="validator is not staking... waiting"time="2023-08-04T07:58:46Z" level=debug msg="checking keep alive" alive-until="2023-08-04 08:00:12.737498934 +0000 UTC" should-send-keep-alive=false time-now="2023-08-04 07:58:46.745602574 +0000 UTC" ttl=1m25.99189636s
+time="2023-08-04T07:58:48Z" level=error msg="rpc error: code = Unknown desc = rpc error: code = Unknown desc = failed to execute message; message index: 0: validator palomavaloper1my3gpyx7sdx7wn4rd0hmng60q9jhykxhx3fwkh cannot be a pigeon: validator is jailed [cosmos/cosmos-sdk@v0.47.3/baseapp/baseapp.go:802] With gas wanted: '18446744073709551615' and gas used: '33932' : unknown request"
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/bnb-main/evm-turnstone-message" action=attest message-ids="[]" queue-name=evm/bnb-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/bnb-main/validators-balances" action=attest message-ids="[]" queue-name=evm/bnb-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/eth-main/evm-turnstone-message" action=attest message-ids="[]" queue-name=evm/eth-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/eth-main/validators-balances" action=attest message-ids="[]" queue-name=evm/eth-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/kava-main/evm-turnstone-message" action=attest message-ids="[]" queue-name=evm/kava-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/kava-main/validators-balances" action=attest message-ids="[]" queue-name=evm/kava-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/matic-main/evm-turnstone-message" action=attest message-ids="[]" queue-name=evm/matic-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/matic-main/validators-balances" action=attest message-ids="[]" queue-name=evm/matic-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/op-main/evm-turnstone-message" action=attest message-ids="[]" queue-name=evm/op-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/op-main/validators-balances" action=attest message-ids="[]" queue-name=evm/op-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/bnb-main/evm-turnstone-message" action=relay message-ids="[]" queue-name=evm/bnb-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg="got 0 messages from evm/bnb-main/validators-balances" action=relay message-ids="[]" queue-name=evm/bnb-main/validators-balances
+time="2023-08-04T07:58:48Z" level=debug msg="got 1 messages from evm/eth-main/evm-turnstone-message" action=relay message-ids="[52259]" queue-name=evm/eth-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=info msg="relaying 1 messages" action=relay message-ids="[52259]" messages-to-relay="[52259]" queue-name=evm/eth-main/evm-turnstone-message
+time="2023-08-04T07:58:48Z" level=debug msg=processing chain-reference-id=eth-main message-type="*types.Message_SubmitLogicCall" msg-id=52259 queue-name=evm/eth-main/evm-turnstone-message
+time="2023-08-04T07:58:49Z" level=debug msg="fetching last valset message id"
+time="2023-08-04T07:58:49Z" level=debug msg="called LastValsetID in EVM client"
+address=0x7Eec3e2f4d567794B927B6d904Fbf973bC8D15e6
+time="2023-08-04T07:58:49Z" level=debug msg="got valset by id" chain-reference-id=eth-main power-length=36 valset-id-in=11606 valset-id-out=11606 valset-length=36
+time="2023-08-04T07:58:49Z" level=debug msg="confirming consensus reached" validators-size=36
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=0 power=431934414 validator=0x092604a080524Eff1C875fF13A1b88cBDD41df37
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=0
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=0
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=0
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=1 power=313364055 validator=0x6dc59EE4bdFa2C791229004f29b08F783491a934
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=2 power=299870402 validator=0xDEea5b069208e0eE37b630A3e7672FC50e8fE24a
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=2
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=2
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=2
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=3 power=247901018 validator=0x43E218f96A567DC26C6e65fCabF1fDE26Af69444
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=4 power=243475017 validator=0x19f5911E4cA69E30449aD6BB71De341F01F118BB
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=4
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=4
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=4
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=5 power=207273298 validator=0xC47b85c7577260d995BE7aB65728AE33B4CD26cD
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=6 power=207217971 validator=0xADe5F5eFeAe72102d998F6C496ea59731a70eEb0
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=6
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=6
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=6
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=7 power=183231596 validator=0x1ad90dB98da083E117D5F62a1673fC0f3A5930ca
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=7
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=7
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=7
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=8 power=177587700 validator=0x279fC7c0ebEf3328d3899FE73464347A764C5f2C
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=9 power=170514009 validator=0x5A7C9FC846b18944FD2B8F8aE7255dB5af7b9c04
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=10 power=155244736 validator=0x63f55bc560E981d53E1f5bb3643e3a96D26fc635
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=11 power=144233712 validator=0x4a89f96fdff3C161937CFBC3e22d2E325612aaEc
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=11
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=11
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=11
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=12 power=138858488 validator=0x732fBb6018F2cB5b844055C9EB567447a3132833
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=13 power=133205215 validator=0xeE83770168D4EE756e74562C17BDED88091519D0
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=14 power=128904675 validator=0x1F6EF2784cbB2A5011d8CF12356fb5ee3eAeF372
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=14
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=14
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=14
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=15 power=128241781 validator=0xAAc74d38c82c367b3dA7482E3Aecf6DD7A512eF2
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=15
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=15
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=15
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=16 power=124375761 validator=0x443266026738061972012e62D5Ecd9D98da8B6F4
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=16
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=16
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=16
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=17 power=101626242 validator=0xeB13A069D119558b6653CbC8C069dAFb3D6758e7
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=18 power=100140933 validator=0x7C3dE83D90E8d2001a7e3F38E6a7058334cB291E
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=18
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=18
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=18
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=19 power=97826165 validator=0x443520951d766456F2AC5578f3E7e4B56a7BcF63
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=19
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=19
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=19
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=20 power=95020023 validator=0x1Dd71EE9e7b1CfF10CCb7E12520999c2d4fB45e5
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=21 power=91406910 validator=0x7b5f4b6490EBC2Dd03B717D7d26eDc78451a88B4
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=22 power=78991075 validator=0x3aB643728bD503AE41561B4Bfe1D309A17255b8D
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=23 power=64941514 validator=0x377D23948D41579f2c3cA40308e3bdd53f6dA7B2
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=23
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=23
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=23
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=24 power=11872395 validator=0x0DAaBB4FF60423Eb1F14cC6731394e098ad51bcb
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=24
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=24
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=24
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=25 power=11397901 validator=0xcFBBF6341cf13a39ffCaF24B86dE09489116783b
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=25
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=25
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=25
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=26 power=8421258 validator=0xb5117420Bd1726B6bFEceD63602b287ab3dBa219
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=27 power=2875246 validator=0x179206Cd9080A8ee77C2256A27050112da13b2f6
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=27
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=27
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=27
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=28 power=2850528 validator=0xEe21301aF1d9562B5cBEdf520077Ea0a9bC9d535
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=28
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=28
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=28
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=29 power=2434437 validator=0xBBEFE691d2C3bbB835CE2958b453ccd05BdB27A5
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=29
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=29
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=29
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=30 power=2122647 validator=0xeB784b37365C302C97C9Ec8cB0933cE344e6dE42
+time="2023-08-04T07:58:49Z" level=debug msg="good ecrecover" i=30
+time="2023-08-04T07:58:49Z" level=debug msg="good unmarshal" i=30
+time="2023-08-04T07:58:49Z" level=debug msg="good consensus" i=30
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=31 power=1050143 validator=0x1829a4A33cC162D3D55ed79d77574005A084142B
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=32 power=982130 validator=0x61591d4C1518d23C2668255d5A6ecE7b2038599f
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=33 power=971720 validator=0x5cB3114bAf54395dA6c3665616bDF59e8dCB3B8A
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=34 power=971708 validator=0xa49f65cf05DcCe7c92621Ed41CBa9E4E09a5D618
+time="2023-08-04T07:58:49Z" level=debug msg="checking consensus" i=35 power=962003 validator=0xEcaF11BB88082f06A64d5FA3076A74DF792e6afe
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/eth-main/validators-balances" action=relay message-ids="[]" queue-name=evm/eth-main/validators-balances
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/kava-main/evm-turnstone-message" action=relay message-ids="[]" queue-name=evm/kava-main/evm-turnstone-message
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/kava-main/validators-balances" action=relay message-ids="[]" queue-name=evm/kava-main/validators-balances
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/matic-main/evm-turnstone-message" action=relay message-ids="[]" queue-name=evm/matic-main/evm-turnstone-message
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/matic-main/validators-balances" action=relay message-ids="[]" queue-name=evm/matic-main/validators-balances
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/op-main/evm-turnstone-message" action=relay message-ids="[]" queue-name=evm/op-main/evm-turnstone-message
+time="2023-08-04T07:58:49Z" level=debug msg="got 0 messages from evm/op-main/validators-balances" action=relay message-ids="[]" queue-name=evm/op-main/validators-balances
+time="2023-08-04T07:58:49Z" level=debug msg="chain infos unchanged since last tick"
+time="2023-08-04T07:58:51Z" level=info msg="checking if validator is staking"
+time="2023-08-04T07:58:51Z" level=info msg="validator is not staking... waiting"time="2023-08-04T07:58:56Z" level=info msg="checking if validator is staking"
